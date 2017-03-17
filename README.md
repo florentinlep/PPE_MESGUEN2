@@ -1,4 +1,4 @@
-# PPE_MESGUEN2
+# PPE3 - MESGUEN
 Deuxième projet pour l'entreprise MESGUEN.
 
 Nom de l'entreprise : BeMapped
