@@ -1,0 +1,39 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>WindowsApplication5</Name>
+    <Description>&lt;Aucune description disponible&gt;</Description>
+    <ProjectType>VisualBasic</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>WindowsApplication5</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="WindowsApplication5.vbproj" File="WindowsApplication5.vbproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Connexion.vb">Connexion.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Connexion.Designer.vb">Connexion.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Connexion.resx">Connexion.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Employe.vb">Employe.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Lieu.vb">Lieu.vb</ProjectItem>
+      <Folder Name="My Project" TargetFolderName="My Project">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Application.myapp">Application.myapp</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Application.Designer.vb">Application.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.vb">AssemblyInfo.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.vb">Resources.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.vb">Settings.Designer.vb</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="PPE3.vb">PPE3.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="PPE3.Designer.vb">PPE3.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="PPE3.resx">PPE3.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Tournee.vb">Tournee.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Vehicule.vb">Vehicule.vb</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
